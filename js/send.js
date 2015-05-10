@@ -12,7 +12,7 @@ jQuery(function($)
             data: {
                 'key': 'fHtk1BA8VN7J8Nu-NlZYlA',
                 'message': {
-                    'from_email': email,
+                    'from_email': eric.vautier@gmail.com,
                     'from_name': name,
                     'headers': {
                         'Reply-To': email
