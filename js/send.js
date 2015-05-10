@@ -9,10 +9,11 @@ $(document).ready(
 			var m = new mandrill.Mandrill('UGtQ8Hn0JNO6VI2v75rcPg'); // This will be public
 	        var response = m.messages.send({
 	            "message": {
-	                "from_email": "eric.vautier@gmail.com",
+	                "from_email": "belenyesiannamaria@gmail.com",
 	                "from_name": "Eric",
-	                "to":[{"email": "eric.vautier@gmail.com", "name": name}], // Array of recipients
+	                "to":[{"email": "belenyesiannamaria@gmail.com", "name": name}], // Array of recipients
 	                "subject": "Piano Voice Website Contact Form",
+	                "text": msg + "\n\nContact email: " + email
 	            }},
 	            function (response) {
 	            	if (response[0].status != 'sent') {
