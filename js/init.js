@@ -18,9 +18,7 @@
 			'mobile-narrow': { range: '-480', containers: '95%!', grid: { collapse: true } }
 		}
 	});
-	
 
-	
 	$(function() {
 
 		var	$window = $(window),
@@ -247,7 +245,6 @@
 					$window.trigger('resize');
 				});
 
-			
 	});
 
 })(jQuery);
