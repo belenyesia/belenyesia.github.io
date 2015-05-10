@@ -12,19 +12,18 @@ jQuery(function($)
             data: {
                 'key': 'fHtk1BA8VN7J8Nu-NlZYlA',
                 'message': {
-                    'from_email': eric.vautier@gmail.com,
+                    'from_email': email,
                     'from_name': name,
                     'headers': {
                         'Reply-To': email
                     },
                     'subject': 'Website Contact Form Submission',
                     'text': msg,
-                    'to': [
-                    {
-                        'email': 'eric.vautier@gmail.com',
-                        'name': 'Eric',
-                        'type': 'to'
-                    }]
+                    'to': [{
+	                        'email': 'eric.vautier@gmail.com',
+	                        'name': 'Eric',
+	                        'type': 'to'
+	                    }]
                 }
             }
         })
