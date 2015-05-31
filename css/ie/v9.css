@@ -7,19 +7,17 @@
 /*********************************************************************************/
 /* Loader                                                                        */
 /*********************************************************************************/
-
-	body:before,
-	body:after {
-		display: none !important;
-	}
+body:before, body:after {
+	display: none !important;
+}
 
 /*********************************************************************************/
 /* Poptrox                                                                       */
 /*********************************************************************************/
+.poptrox-popup {
+	
+}
 
-	.poptrox-popup {
-	}
-
-		.poptrox-popup .loader {
-			display: none !important;
-		}
+.poptrox-popup .loader {
+	display: none !important;
+}
