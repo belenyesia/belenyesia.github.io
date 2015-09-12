@@ -10,7 +10,7 @@ $(document).ready(
 	        var response = m.messages.send({
 	            "message": {
 	                "from_email": "belenyesiannamaria@gmail.com",
-	                "from_name": "Eric",
+	                "from_name": "Piano Voice",
 	                "to":[{"email": "belenyesiannamaria@gmail.com", "name": name}], // Array of recipients
 	                "subject": "Piano Voice Website Contact Form",
 	                "text": msg + "\n\nContact email: " + email
