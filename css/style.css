@@ -201,7 +201,7 @@ section:last-child, article:last-child {
 
 /* List */
 ul {
-	
+
 }
 
 ul.default {
@@ -262,7 +262,7 @@ ul.actions li:first-child {
 }
 
 ol {
-	
+
 }
 
 ol.default {
@@ -276,15 +276,19 @@ ol.default li {
 
 /* Form */
 form {
-	
+
 }
 
 form label {
 	display: block;
 }
 
-form input[type="text"], form input[type="email"], form input[type="password"],
-	form select, form textarea {
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"],
+form select,
+form textarea {
 	display: block;
 	width: 100%;
 	padding: 0.65em 0.75em;
@@ -305,13 +309,19 @@ form input[type="text"], form input[type="email"], form input[type="password"],
 	transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"]:focus,
-	form select:focus, form textarea:focus {
+form input[type="text"]:focus, 
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="tel"]:focus,
+form select:focus, form textarea:focus {
 	border-color: #9ac8e9;
 }
 
-form input[type="text"], form input[type="email"], form input[type="password"],
-	form select {
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"],
+form select {
 	line-height: 1.35em;
 }
 
@@ -376,7 +386,7 @@ table.default tfoot {
 }
 
 table.default tbody {
-	
+
 }
 
 /* Button */
@@ -517,7 +527,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .main.style1.inactive {
-	
+
 }
 
 .main.style1.inactive .content {
@@ -547,7 +557,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .main.style2.left {
-	
+
 }
 
 .main.style2.left:after {
@@ -562,7 +572,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .main.style2.right {
-	
+
 }
 
 .main.style2.right:before {
@@ -577,11 +587,11 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .main.style2.inactive {
-	
+
 }
 
 .main.style2.inactive .content {
-	
+
 }
 
 .main.style2.inactive.left .content {
@@ -598,7 +608,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .main.style3 .content {
-	
+
 }
 
 .main.style3 .content>header {
@@ -654,7 +664,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 
 :
 
- 
+
 
 scale
 
@@ -667,14 +677,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -687,14 +697,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -707,14 +717,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -727,14 +737,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -747,7 +757,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -767,7 +777,7 @@ deg
 
 :
 
- 
+
 
 scale
 
@@ -780,14 +790,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -800,14 +810,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -820,14 +830,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -840,14 +850,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -860,7 +870,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -880,7 +890,7 @@ deg
 
 :
 
- 
+
 
 scale
 
@@ -893,14 +903,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -913,14 +923,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -933,14 +943,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -953,14 +963,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -973,7 +983,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -993,7 +1003,7 @@ deg
 
 :
 
- 
+
 
 scale
 
@@ -1006,14 +1016,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1026,14 +1036,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1046,14 +1056,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1066,14 +1076,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1086,7 +1096,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -1106,7 +1116,7 @@ keyframes spinner-rotate { 0% {
 
 :
 
- 
+
 
 scale
 
@@ -1119,14 +1129,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1139,14 +1149,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1159,14 +1169,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1179,14 +1189,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1199,7 +1209,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -1219,7 +1229,7 @@ opacity
 
 :
 
- 
+
 
 1;
 }
@@ -1236,7 +1246,7 @@ opacity
 
 :
 
- 
+
 
 1;
 }
@@ -1253,7 +1263,7 @@ opacity
 
 :
 
- 
+
 
 1;
 }
@@ -1270,7 +1280,7 @@ opacity
 
 :
 
- 
+
 
 1;
 }
@@ -1287,7 +1297,7 @@ opacity
 
 :
 
- 
+
 
 1;
 }
@@ -1310,7 +1320,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -1321,7 +1331,7 @@ z-index
 
 :
 
- 
+
 
 100001;
 -moz-transform
@@ -1329,7 +1339,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -1346,14 +1356,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1370,14 +1380,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1394,14 +1404,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1418,14 +1428,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1442,7 +1452,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 100%
@@ -1452,7 +1462,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -1463,7 +1473,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 -moz-transform
@@ -1471,7 +1481,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -1488,14 +1498,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1512,14 +1522,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1536,14 +1546,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1560,14 +1570,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1584,7 +1594,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -1606,7 +1616,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -1617,7 +1627,7 @@ z-index
 
 :
 
- 
+
 
 100001;
 -moz-transform
@@ -1625,7 +1635,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -1642,14 +1652,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1666,14 +1676,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1690,14 +1700,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1714,14 +1724,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1738,7 +1748,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 100%
@@ -1748,7 +1758,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -1759,7 +1769,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 -moz-transform
@@ -1767,7 +1777,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -1784,14 +1794,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1808,14 +1818,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1832,14 +1842,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1856,14 +1866,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1880,7 +1890,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -1902,7 +1912,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -1913,7 +1923,7 @@ z-index
 
 :
 
- 
+
 
 100001;
 -moz-transform
@@ -1921,7 +1931,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -1938,14 +1948,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1962,14 +1972,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -1986,14 +1996,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2010,14 +2020,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2034,7 +2044,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 100%
@@ -2044,7 +2054,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -2055,7 +2065,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 -moz-transform
@@ -2063,7 +2073,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -2080,14 +2090,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2104,14 +2114,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2128,14 +2138,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2152,14 +2162,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2176,7 +2186,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -2198,7 +2208,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -2209,7 +2219,7 @@ z-index
 
 :
 
- 
+
 
 100001;
 -moz-transform
@@ -2217,7 +2227,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -2234,14 +2244,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2258,14 +2268,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2282,14 +2292,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2306,14 +2316,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2330,7 +2340,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 100%
@@ -2340,7 +2350,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -2351,7 +2361,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 -moz-transform
@@ -2359,7 +2369,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -2376,14 +2386,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2400,14 +2410,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2424,14 +2434,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2448,14 +2458,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2472,7 +2482,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -2494,7 +2504,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -2505,7 +2515,7 @@ z-index
 
 :
 
- 
+
 
 100001;
 -moz-transform
@@ -2513,7 +2523,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -2530,14 +2540,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2554,14 +2564,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2578,14 +2588,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2602,14 +2612,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2626,7 +2636,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 100%
@@ -2636,7 +2646,7 @@ color
 
 :
 
- 
+
 
 #ececec
 
@@ -2647,7 +2657,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 -moz-transform
@@ -2655,7 +2665,7 @@ z-index
 
 :
 
- 
+
 
 scale
 
@@ -2672,14 +2682,14 @@ rotate
 deg
 );
 
- 
+
 
 -webkit-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2696,14 +2706,14 @@ rotate
 deg
 );
 
- 
+
 
 -o-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2720,14 +2730,14 @@ rotate
 deg
 );
 
- 
+
 
 -ms-transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2744,14 +2754,14 @@ rotate
 deg
 );
 
- 
+
 
 transform
 
 
 :
 
- 
+
 
 scale
 
@@ -2768,7 +2778,7 @@ rotate
 deg
 );
 
- 
+
 
 }
 }
@@ -2785,7 +2795,7 @@ opacity
 
 :
 
- 
+
 
 1;
 z-index
@@ -2793,7 +2803,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2804,7 +2814,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2812,7 +2822,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2823,7 +2833,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2831,7 +2841,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 }
@@ -2849,7 +2859,7 @@ opacity
 
 :
 
- 
+
 
 1;
 z-index
@@ -2857,7 +2867,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2868,7 +2878,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2876,7 +2886,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2887,7 +2897,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2895,7 +2905,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 }
@@ -2913,7 +2923,7 @@ opacity
 
 :
 
- 
+
 
 1;
 z-index
@@ -2921,7 +2931,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2932,7 +2942,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2940,7 +2950,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2951,7 +2961,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -2959,7 +2969,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 }
@@ -2977,7 +2987,7 @@ opacity
 
 :
 
- 
+
 
 1;
 z-index
@@ -2985,7 +2995,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -2996,7 +3006,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -3004,7 +3014,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -3015,7 +3025,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -3023,7 +3033,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 }
@@ -3041,7 +3051,7 @@ opacity
 
 :
 
- 
+
 
 1;
 z-index
@@ -3049,7 +3059,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -3060,7 +3070,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -3068,7 +3078,7 @@ z-index
 
 :
 
- 
+
 
 100000;
 }
@@ -3079,7 +3089,7 @@ opacity
 
 :
 
- 
+
 
 0;
 z-index
@@ -3087,7 +3097,7 @@ z-index
 
 :
 
- 
+
 
 -1;
 }
@@ -3305,11 +3315,11 @@ body {
 /* Work                                                                          */
 /*********************************************************************************/
 #work {
-	
+
 }
 
 #work .row.images {
-	
+
 }
 
 #work .row.images .image {
@@ -3330,7 +3340,7 @@ body {
 }
 
 #work .row.images.inactive {
-	
+
 }
 
 #work .row.images.inactive .image {
@@ -3377,7 +3387,7 @@ body {
 }
 
 #contact.inactive {
-	
+
 }
 
 #contact.inactive .box {
@@ -3611,7 +3621,7 @@ body {
 /* Touch Mode                                                                    */
 /*********************************************************************************/
 body.is-touch {
-	
+
 }
 
 body.is-touch .main {
@@ -3619,7 +3629,7 @@ body.is-touch .main {
 }
 
 body.is-touch .poptrox-popup {
-	
+
 }
 
 body.is-touch .poptrox-popup .nav-next, body.is-touch .poptrox-popup .nav-previous,
