@@ -634,7 +634,7 @@ input[type="button"].style2:hover, input[type="submit"].style2:hover,
 }
 
 .dark a {
-	color: #fff;
+	color: #000;
 }
 
 .dark .button.style2 {
