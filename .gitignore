@@ -2,3 +2,5 @@
 .metadata/*
 .settings/*
 .project
+.jekyll-cache/*
+_site/*

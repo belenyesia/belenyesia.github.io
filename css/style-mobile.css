@@ -33,7 +33,7 @@ h2 {
 
 /* Main */
 .main {
-	
+
 }
 
 .main.fullscreen {
@@ -53,11 +53,13 @@ h2 {
 	padding: 6em 15px 6em 15px;
 }
 
-.main.style2:before, .main.style2:after {
+.main.style2:before, .main.style2:after,
+.main.style3:before, .main.style3:after {
 	display: none !important;
 }
 
-.main.style2 .button.anchored {
+.main.style2 .button.anchored,
+.main.style3 .button.anchored {
 	display: none;
 }
 
@@ -111,11 +113,11 @@ body {
 /* Footer                                                                        */
 /*********************************************************************************/
 #footer {
-	
+
 }
 
 #footer .menu {
-	
+
 }
 
 #footer .menu li {
@@ -137,11 +139,11 @@ body {
 /* Poptrox                                                                       */
 /*********************************************************************************/
 .poptrox-popup {
-	
+
 }
 
 .poptrox-popup .nav-next, .poptrox-popup .nav-previous {
-	
+
 }
 
 .poptrox-popup .nav-next:before, .poptrox-popup .nav-previous:before {
@@ -152,7 +154,7 @@ body {
 }
 
 .poptrox-popup .closer {
-	
+
 }
 
 .poptrox-popup .closer:before {
